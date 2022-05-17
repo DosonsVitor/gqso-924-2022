@@ -1,7 +1,7 @@
 
 # API Calculadora
 
-API desenvolvida para realizar as 4 principais operações matemáticas entre dois números
+API desenvolvida para realizar as 4 principais operações matemáticas entre dois números.
 
 ## Time:
 
