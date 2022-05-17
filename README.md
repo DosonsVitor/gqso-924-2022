@@ -1,5 +1,5 @@
 
-# API Calculadora
+# API Calculadora <img src="https://ibb.co/QDLngGj" alt="Logo" height="50px" align="center">
 
 API desenvolvida para realizar as 4 principais operações matematicas entre dois números
 
