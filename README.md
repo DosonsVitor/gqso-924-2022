@@ -3,7 +3,7 @@
 
 API desenvolvida para realizar as quatro principais operações matemáticas entre dois números.
 
-## Time:
+## Time
 
 | Nome                                  | Email                    |
 | ------------------------------------- | ------------------------ |
