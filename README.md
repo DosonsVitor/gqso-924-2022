@@ -5,9 +5,9 @@ API desenvolvida para realizar as quatro principais operações matemáticas ent
 
 ## Time:
 
-| Nome                                  | Email                    |
-| ------------------------------------- | ------------------------ |
-| Doson's de Oliveria Vitor             | dov1@aluno.ifal.edu.br   |
-| Maria Clara Cortez Cavalcante Rocha   | mcccr1@aluno.ifal.edu.br |
-| Maria Clara Leão de Andrade Neves     | mclan1@aluno.ifal.edu.br |  
-| Maria Veronica Nunes da Silva         | mvns3@aluno.ifal.edu.br  | 
+| Nome                                                                       | Email                    |
+| -------------------------------------------------------------------------- | ------------------------ |
+| [Doson's de Oliveria Vitor](https://www.github.com/dosonsvitor)            | dov1@aluno.ifal.edu.br   |
+| [Maria Clara Cortez Cavalcante Rocha](https://www.github.com/claracortez1) | mcccr1@aluno.ifal.edu.br |
+| [Maria Clara Leão de Andrade Neves](https://www.github.com/mariaclaraleao) | mclan1@aluno.ifal.edu.br |
+| [Maria Veronica Nunes da Silva](https://www.github.com/m-veronica-n)       | mvns3@aluno.ifal.edu.br  |
