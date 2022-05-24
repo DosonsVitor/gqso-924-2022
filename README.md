@@ -1,7 +1,7 @@
 
 # API Calculadora <img src="https://i.ibb.co/phcZ7pr/api-calc.png" alt="Logo de API com uma calculadora" height="50px" align="center">
 
-API desenvolvida para realizar as 4 principais operações matemáticas entre dois números
+API desenvolvida para realizar as quatro principais operações matemáticas entre dois números.
 
 ## Time:
 
