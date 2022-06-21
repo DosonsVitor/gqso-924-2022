@@ -1,4 +1,4 @@
-package handler;
+package src.handler;
 
 import static java.net.HttpURLConnection.HTTP_OK;
 
@@ -17,7 +17,7 @@ public class IndexHandler implements HttpHandler {
     @Override
     public void handle(HttpExchange conn) throws IOException {
 
-        byte[] msg = Files.readAllBytes(Path.of("html/index.html"));
+        byte[] msg = Files.readAllBytes(Path.of("src/html/index.html"));
 
         try {
             conn.sendResponseHeaders(HTTP_OK, msg.length);
