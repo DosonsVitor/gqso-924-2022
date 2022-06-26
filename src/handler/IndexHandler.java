@@ -16,17 +16,17 @@ public class IndexHandler implements HttpHandler {
 
     @Override
     public void handle(HttpExchange conn) throws IOException {
-
-        byte[] msg = Files.readAllBytes(Path.of("src/html/index.html"));
+      
+        byte[] response = Files.readAllBytes(Path.of("src/html/index.html"));
 
         try {
-            conn.sendResponseHeaders(HTTP_OK, msg.length);
+            conn.sendResponseHeaders(HTTP_OK, response.length);
 
             Headers headers = conn.getResponseHeaders();
             headers.add("Content-Type", "text/html; charset=iso-9881");
             
             try (OutputStream out = conn.getResponseBody()) {
-                out.write(msg);
+                out.write(response);
             } catch (IOException ioe) {
                 ioe.printStackTrace();
             }
