@@ -16,8 +16,9 @@ public class Main{
         server.setExecutor(Executors.newSingleThreadExecutor());
 
         server.createContext(IndexHandler.PATH, new IndexHandler());
+        server.createContext(MultiplicacaoHandler.PATH, new MultiplicacaoHandler());
 
         server.start();
-        System.out.printf("Servidor rodando na porta %s\n", server.getAddress().getPort());
+        System.out.printf("Servidor rodando em localhost:%s\n", server.getAddress().getPort());
     }
 }
