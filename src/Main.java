@@ -16,6 +16,7 @@ public class Main{
         server.setExecutor(Executors.newSingleThreadExecutor());
 
         server.createContext(IndexHandler.PATH, new IndexHandler());
+        server.createContext(SomaHandler.PATH, new SomaHandler());
         server.createContext(MultiplicacaoHandler.PATH, new MultiplicacaoHandler());
 
         server.start();
