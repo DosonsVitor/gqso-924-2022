@@ -19,9 +19,9 @@ public class MultiplicacaoHandler implements HttpHandler{
             String [] parameters = conn.getRequestURI().getPath().split("/");
 
             if(parameters.length > 4){
-                throw new IOException("Voce não pode passar mais que 2 parametros");
+                throw new IOException("Você não pode passar mais que 2 parâmetros");
             } else if (parameters.length < 4) {
-                throw new IOException("Voce não pode passar menos que 2 parametros");
+                throw new IOException("Você não pode passar menos que 2 parâmetros");
             }
 
             byte[] response = multiplicar(parameters[2], parameters[3]);
@@ -32,7 +32,7 @@ public class MultiplicacaoHandler implements HttpHandler{
                 e.printStackTrace();
             }
         } catch (NumberFormatException e){
-            response(HTTP_BAD_REQUEST, "Formato de parametro invalido".getBytes(), conn);
+            response(HTTP_BAD_REQUEST, "Formato de parâmetro inválido".getBytes(), conn);
         } catch(IOException e){
             response(HTTP_BAD_REQUEST, e.getMessage().getBytes(), conn);
         } finally {
