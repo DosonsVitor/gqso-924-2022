@@ -19,9 +19,9 @@ public class SomaHandler implements HttpHandler{
             String [] parameters = conn.getRequestURI().getPath().split("/");
 
             if(parameters.length > 4){
-                throw new IOException("Você não pode passar mais que 2 parâmetros");
+                throw new IOException("Você não pode passar mais que 2 parâmetros.");
             } else if (parameters.length < 4) {
-                throw new IOException("Você não pode passar menos que 2 parâmetros");
+                throw new IOException("Você não pode passar menos que 2 parâmetros.");
             }
 
             byte[] response = somar (parameters[2], parameters[3]);
