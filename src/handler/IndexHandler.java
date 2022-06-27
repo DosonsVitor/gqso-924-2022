@@ -16,7 +16,7 @@ public class IndexHandler implements HttpHandler {
 
     @Override
     public void handle(HttpExchange conn) throws IOException {
-
+      
         byte[] response = Files.readAllBytes(Path.of("src/html/index.html"));
 
         try {
