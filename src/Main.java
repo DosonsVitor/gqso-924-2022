@@ -20,8 +20,7 @@ public class Main{
         server.createContext(SubtracaoHandler.PATH, new SubtracaoHandler());
         server.createContext(MultiplicacaoHandler.PATH, new MultiplicacaoHandler());
         server.createContext(DivisaoHandler.PATH, new DivisaoHandler());
-
-        
+      
         server.start();
         System.out.printf("Servidor rodando em localhost:%s\n", server.getAddress().getPort());
     }
