@@ -1,10 +1,8 @@
-package com.danielfireman.ifal.calcapi;
+package com.dosonsvitor.ifal.calcapi;
 
 import io.jooby.MockRouter;
 import io.jooby.StatusCode;
 import org.junit.jupiter.api.Test;
-
-import com.dosonsvitor.ifal.calcapi.App;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

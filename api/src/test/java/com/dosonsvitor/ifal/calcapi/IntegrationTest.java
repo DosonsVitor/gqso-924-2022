@@ -1,4 +1,4 @@
-package com.danielfireman.ifal.calcapi;
+package com.dosonsvitor.ifal.calcapi;
 
 import io.jooby.JoobyTest;
 import io.jooby.StatusCode;
@@ -6,8 +6,6 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 import org.junit.jupiter.api.Test;
-
-import com.dosonsvitor.ifal.calcapi.App;
 
 import java.io.IOException;
 
