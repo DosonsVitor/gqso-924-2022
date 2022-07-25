@@ -13,6 +13,9 @@ public class App extends Jooby {
             +"   \"message\": \"API para resolução das 4 principais operações matematicas.\""
             +"}";
     });
+    
+    mvc(new Subtrair());
+    
   }
 
   public static void main(final String[] args) {
