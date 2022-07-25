@@ -1,7 +1,5 @@
 package com.dosonsvitor.ifal.calcapi.handlers;
 
-
-import io.jooby.Context;
 import io.jooby.annotations.*;
 
 @Path("multi/{parametro1}/{parametro2}")
