@@ -31,7 +31,7 @@ public class SubtrairTest {
     public void sub_secondOperadorIsString() {
         MockRouter router = new MockRouter(new App());
         assertThrows(BadRequestException.class, () ->{
-            router.get("/sub/2/a", rsp -> {});
+            router.get("/sub/5/a", rsp -> {});
         });
     }
 
