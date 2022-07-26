@@ -18,6 +18,7 @@ public class App extends Jooby {
     
     mvc(new Subtrair());
     mvc(new Multiplicar());
+    mvc(new Dividir());
   }
 
   public static void main(final String[] args) {
