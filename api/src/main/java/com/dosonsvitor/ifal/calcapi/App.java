@@ -15,7 +15,8 @@ public class App extends Jooby {
             +"   \"message\": \"API para resolução das 4 principais operações matematicas.\""
             +"}";
     });
-    
+
+    mvc(new Somar());
     mvc(new Subtrair());
     mvc(new Multiplicar());
   }
