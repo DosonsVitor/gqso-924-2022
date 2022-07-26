@@ -1,6 +1,6 @@
 package com.dosonsvitor.ifal.calcapi;
 
-import com.dosonsvitor.ifal.calcapi.handlers.Multiplicar;
+import com.dosonsvitor.ifal.calcapi.handlers.*;
 
 import io.jooby.Jooby;
 import io.jooby.MediaType;
