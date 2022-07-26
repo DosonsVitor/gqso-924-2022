@@ -31,7 +31,7 @@ public class SomarTest {
     public void sum_secondOperadorIsString() {
         MockRouter router = new MockRouter(new App());
         assertThrows(BadRequestException.class, () ->{
-            router.get("/sum/2/a", rsp -> {});
+            router.get("/sum/5/a", rsp -> {});
         });
     }
 
