@@ -31,7 +31,7 @@ public class DividirTest {
     public void div_secondOperadorIsString() {
         MockRouter router = new MockRouter(new App());
         assertThrows(BadRequestException.class, () ->{
-            router.get("/div/2/a", rsp -> {});
+            router.get("/div/5/a", rsp -> {});
         });
     }
 
