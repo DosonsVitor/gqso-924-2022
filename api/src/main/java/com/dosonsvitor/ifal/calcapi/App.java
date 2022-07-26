@@ -1,5 +1,7 @@
 package com.dosonsvitor.ifal.calcapi;
 
+import com.dosonsvitor.ifal.calcapi.handlers.Multiplicar;
+
 import io.jooby.Jooby;
 import io.jooby.MediaType;
 
@@ -15,7 +17,7 @@ public class App extends Jooby {
     });
     
     mvc(new Subtrair());
-    
+    mvc(new Multiplicar());
   }
 
   public static void main(final String[] args) {
