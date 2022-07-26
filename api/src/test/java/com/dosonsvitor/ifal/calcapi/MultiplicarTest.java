@@ -31,7 +31,7 @@ public class MultiplicarTest {
     public void multi_secondOperadorIsString() {
         MockRouter router = new MockRouter(new App());
         assertThrows(BadRequestException.class, () ->{
-            router.get("/multi/2/a", rsp -> {});
+            router.get("/multi/5/a", rsp -> {});
         });
     }
 
