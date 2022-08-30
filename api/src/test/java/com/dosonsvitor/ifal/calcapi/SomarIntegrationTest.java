@@ -51,7 +51,7 @@ public class SomarIntegrationTest {
   @Test
   public void checkAllNotNumError(int serverPort) throws IOException {
     Request req = new Request.Builder()
-      .url("http://localhost:"+ serverPort + "/sum/a/a")
+      .url("http://localhost:"+ serverPort + "/sum/a/b")
       .build();
 
     try(Response rsp = client.newCall(req).execute()) {
