@@ -10,7 +10,7 @@ import java.io.IOException;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @JoobyTest(App.class)
-public class MultiplicaçaoIntegrationTest {
+public class MultiplicarIntegrationTest {
 
   static OkHttpClient client = new OkHttpClient();
 
