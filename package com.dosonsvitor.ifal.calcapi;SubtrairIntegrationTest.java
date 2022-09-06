@@ -17,12 +17,12 @@ public class SubtracaoIntegrationTest {
   @Test
   public void checkOkStatus(int serverPort) throws IOException {
     Request req = new Request.Builder()
-        .url("http://localhost:" + serverPort + "/sub/5/5")
+        .url("http://localhost:" + serverPort + "/sub/8/4")
         .build();
 
     try (Response rsp = client.newCall(req).execute()) {
       assertEquals(StatusCode.OK.value(), rsp.code());
-      assertEquals("0.0", rsp.body().string());
+      assertEquals("4.0", rsp.body().string());
     }
   }
 
