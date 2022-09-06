@@ -17,12 +17,12 @@ public class DividirIntegrationTest {
   @Test
   public void checkOkStatus(int serverPort) throws IOException {
     Request req = new Request.Builder()
-        .url("http://localhost:" + serverPort + "/div/5/5")
+        .url("http://localhost:" + serverPort + "/div/10/2")
         .build();
 
     try (Response rsp = client.newCall(req).execute()) {
       assertEquals(StatusCode.OK.value(), rsp.code());
-      assertEquals("1.0", rsp.body().string());
+      assertEquals("5.0", rsp.body().string());
     }
   }
 
